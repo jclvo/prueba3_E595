@@ -10,6 +10,14 @@ public class Git2 {
 		System.out.println("Introduce tu nombre");
 		String nombre = scanner.nextLine();
 		System.out.println("Tu nombre es " + nombre);
+		
+
+		//Modificaciones posteriores al primer commit
+		System.out.println("Introduce tu edad: ");
+		int edad = scanner.nextInt();
+		System.out.println("Mi nombre es " + nombre + " y mi edad: " + edad);
+		
+		
 
 		scanner.close();
 	}
